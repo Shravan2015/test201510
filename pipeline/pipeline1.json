@@ -17,6 +17,7 @@
 						"referenceName": "AzureBlob2",
 						"type": "DatasetReference"
 					},
+					"recursive": true,
 					"logStorageSettings": {
 						"linkedServiceName": {
 							"referenceName": "AzureBlobStorage2",
