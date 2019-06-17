@@ -14,8 +14,15 @@
 				},
 				"typeProperties": {
 					"dataset": {
-						"referenceName": "AzureBlob1",
+						"referenceName": "AzureBlob2",
 						"type": "DatasetReference"
+					},
+					"logStorageSettings": {
+						"linkedServiceName": {
+							"referenceName": "AzureBlobStorage2",
+							"type": "LinkedServiceReference"
+						},
+						"path": "test"
 					},
 					"enableLogging": true
 				}
