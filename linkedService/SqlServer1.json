@@ -1,0 +1,16 @@
+{
+	"name": "SqlServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=DESKTOP-H81VH1M;initial catalog=[Practice]",
+			"userName": "DESKTOP-H81VH1M\\Admin",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyYjk0MzczMi0zZjdjLTQ2ZjctYTE3YS03MDljOWE0NWViODkiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IR1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
