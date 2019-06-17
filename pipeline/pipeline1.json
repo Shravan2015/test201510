@@ -1,3 +1,25 @@
 {
-	"name": "pipeline1"
+	"name": "pipeline1",
+	"properties": {
+		"activities": [
+			{
+				"name": "Delete1",
+				"type": "Delete",
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"typeProperties": {
+					"dataset": {
+						"referenceName": "AzureBlob1",
+						"type": "DatasetReference"
+					},
+					"enableLogging": true
+				}
+			}
+		]
+	}
 }
